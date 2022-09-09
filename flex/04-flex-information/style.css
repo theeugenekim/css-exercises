@@ -7,10 +7,58 @@ img {
   height: 100px;
 }
 
+.info-header {
+  display: flex;
+  border: 1px red;
+  align-content: center;
+  flex-direction: column;
+}
+
+
+.item-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  gap: 8px;
+}
+
+.item .text {
+  justify-content: center;
+  text-align: center;
+}
+
+
 .title {
   font-size: 36px;
   font-weight: 900;
+
+  display:flex;
+  justify-content: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* do not edit this footer */
 .footer {
